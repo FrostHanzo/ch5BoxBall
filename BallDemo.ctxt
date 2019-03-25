@@ -1,8 +1,13 @@
 #BlueJ class context
-comment0.params=
-comment0.target=BallDemo()
-comment0.text=\r\n\ Create\ a\ BallDemo\ object.\ Creates\ a\ fresh\ canvas\ and\ makes\ it\ visible.\r\n
+comment0.target=BallDemo
+comment0.text=\r\n\ Class\ BallDemo\ -\ a\ short\ demonstration\ showing\ animation\ with\ the\ \r\n\ Canvas\ class.\ \r\n\ boxBounce\ method\ was\ added\ to\ have\ balls\ bounce\ inside\ a\ box\ within\ Canvas.\r\n\ BoxBall\ class\ was\ created\ to\ build\ the\ playing\ area.\r\n\ @author\ Matthew\ Dornick\r\n\ @version\ 2015.24.16\r\n
 comment1.params=
-comment1.target=void\ bounce()
-comment1.text=\r\n\ Simulate\ two\ bouncing\ balls\r\n
-numComments=2
+comment1.target=BallDemo()
+comment1.text=\r\n\ Create\ a\ BallDemo\ object.\ Creates\ a\ fresh\ canvas\ and\ makes\ it\ visible.\r\n
+comment2.params=
+comment2.target=void\ bounce()
+comment2.text=\r\n\ Simulate\ bouncing\ balls\r\n
+comment3.params=numberOfBalls\ offset
+comment3.target=void\ boxBounce(int,\ int)
+comment3.text=\r\n\ Method\ boxBounce\ is\ creatd\ and\ responsible\ for\ drawing\ four\ boundaries\ within\ the\ canvas\ so\ that\ BoxBall\ objects\ \r\n\ can\ bounce\ only\ inside\ the\ boundaries.\r\n\ Bouncing\ is\ controlled\ by\ a\ timer.\r\n\ @param\ numberOfBalls\ to\ specify\ how\ many\ balls\ are\ in\ the\ box.\r\n\ @param\ offset\ value\ to\ set\ the\ boundaries\ of\ the\ box\r\n
+numComments=4
